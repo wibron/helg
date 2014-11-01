@@ -1,6 +1,6 @@
 # Helg [hel:j]
 
-Determine if the current date is on weekend (helg) or not. Made for you @benjick.
+Determine if the current date is on weekend (helg) or not. Made for you [@benjick](https://github.com/benjick).
 
 ## Installation
 
