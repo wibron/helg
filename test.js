@@ -11,7 +11,7 @@ var wednesday = new Date(1414580400000),
 describe('Helg', function () {
 
   describe('When passing an erroneous date object', function () {
-    it('should throw and error', function () {
+    it('should throw an error', function () {
       var invalid = function () {
         return helg.ere('Sunday 11th 2014');
       };
