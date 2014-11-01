@@ -1,0 +1,27 @@
+{
+  "name": "helg",
+  "version": "0.0.1",
+  "description": "Check if the current day is weekend or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": "wibron/helg",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "weekend",
+    "helg"
+  ],
+  "bin": "bin/helg",
+  "author": {
+    "name": "Patrik Wibron",
+    "email": "patrik@wibron.nu"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "timekeeper": "0.0.4"
+  }
+}
