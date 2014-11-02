@@ -1,4 +1,4 @@
-# Helg [hel:j]
+# Helg [hel:j] [![Build Status](https://travis-ci.org/wibron/helg.svg)](https://travis-ci.org/wibron/helg)
 
 Determine if the current date is on weekend (helg) or not. Made for you [@benjick](https://github.com/benjick).
 
