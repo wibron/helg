@@ -5,7 +5,7 @@ var assert = require('assert'),
 
 var wednesday = new Date(1414580400000),
     saturday = new Date(1414839600000),
-    friday = new Date(1414771500000),
+    friday = new Date(1416600000000),
     sunday = new Date(1414926000000);
 
 describe('Helg', function () {
