@@ -2,8 +2,8 @@
 var isWeekend = function (date) {
   var dateString = date,
       weekDay = dateString.getDay(),
-      hour = dateString.getHours();
-  return ((weekDay === 5 && hour >= 17) || weekDay === 6 || weekDay === 0);
+      hour = ((dateString.getHours() + 11) % 12 + 1);
+  return ((weekDay === 5 && hour >= 5) || weekDay === 6 || weekDay === 0);
 };
 
 var ere = function (date) {
