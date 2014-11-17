@@ -1,6 +1,6 @@
 {
   "name": "helg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check if the current day is weekend or not",
   "main": "index.js",
   "scripts": {
