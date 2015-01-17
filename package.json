@@ -1,6 +1,6 @@
 {
   "name": "helg",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Check if the current day is weekend or not",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,9 @@
     "weekend",
     "helg"
   ],
-  "bin": "bin/helg",
+  "bin": {
+    "helg": "cli.js"
+  },
   "author": {
     "name": "Patrik Wibron",
     "email": "patrik@wibron.nu"
@@ -23,5 +25,8 @@
   "devDependencies": {
     "mocha": "^2.0.1",
     "timekeeper": "0.0.4"
+  },
+  "dependencies": {
+    "log-symbols": "^1.0.1"
   }
 }

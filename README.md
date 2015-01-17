@@ -16,8 +16,9 @@ $ npm install -g helg
 
 ## Usage:
 
-```
+```javascript
 var helg = require('helg');
+
 helg.ere();
 ```
 
