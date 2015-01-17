@@ -20,10 +20,15 @@ $ npm install -g helg
 var helg = require('helg');
 
 helg.ere();
+//=> true || false
 ```
 
 ```
 $ helg
+
+  Example:
+    $ helg
+    ✔︎ Ja!
 ```
 
 ## API
