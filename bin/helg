@@ -1,3 +1,0 @@
-#!/usr/bin/env node
-var helg = require('../');
-console.log(helg.ere());
