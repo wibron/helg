@@ -15,7 +15,7 @@
     "helg"
   ],
   "bin": {
-    "helg": "cli.js"
+    "helg": "bin/cli.js"
   },
   "author": {
     "name": "Patrik Wibron",
