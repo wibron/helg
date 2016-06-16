@@ -1,4 +1,4 @@
-# Helg [hel:j] [![Build Status](https://travis-ci.org/wibron/helg.svg)](https://travis-ci.org/wibron/helg)
+# Helg [hel:j] [![Build Status](https://api.travis-ci.org/wibron/helg.svg)](https://travis-ci.org/wibron/helg)
 
 Determine if the current date is on weekend (helg) or not. Made for you [@benjick](https://github.com/benjick).
 
@@ -34,4 +34,3 @@ $ helg
 `Date` object to match against. Must be a new instance of `Date`, e.g: `new Date()`. If no date is passed, the module will use the current time.
 
 ---
-
