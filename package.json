@@ -1,14 +1,15 @@
 {
   "name": "helg",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Check if the current day is weekend or not",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "mocha",
+    "lint": "eslint ."
   },
   "repository": "wibron/helg",
   "engines": {
-    "node": ">=0.10.0"
+    "node": "~6.0.0"
   },
   "keywords": [
     "weekend",
@@ -21,7 +22,13 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^2.0.1",
-    "timekeeper": "0.0.4"
+    "eslint": "^2.12.0",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "mocha": "^2.5.3",
+    "timekeeper": "^0.1.1"
+  },
+  "dependencies": {
+    "log-symbols": "^1.0.2"
   }
 }
