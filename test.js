@@ -5,7 +5,9 @@ const helg = require('./');
 const wednesday = new Date(1414580400000);
 const saturday = new Date(1414839600000);
 const friday = new Date(1416600000000);
+const fridayBeforeNoon = new Date(1474020949000); // 09/16/2016 @ 10:15am (UTC)
 const sunday = new Date(1414926000000);
+
 
 describe('Helg', () => {
   describe('When passing an erroneous date object', () => {
@@ -30,6 +32,10 @@ describe('Helg', () => {
 
     it('should return true when the day is friday and after 5pm', () => {
       assert.equal(helg.ere(friday), true);
+    });
+
+    it('should return false when the day is friday and before 5pm', () => {
+      assert.equal(helg.ere(fridayBeforeNoon), false);
     });
   });
 
